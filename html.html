@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é HTML?</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>O que é HTML?</h1>
+        <section>
+            <h2>Introdução ao HTML</h2>
+            <p>HTML significa HyperText Markup Language. É a linguagem padrão para criar páginas web.</p>
+        </section>
+        <section>
+            <h2>Tags HTML Básicas</h2>
+            <h3>Parágrafos</h3>
+            <p>A tag < p >é usada para definir um parágrafo em HTML. Ela cria um bloco de texto com espaçamento superior e inferior, o que ajuda a separar o conteúdo de forma visualmente clara.</p>
+            <h3>Listas</h3>
+            <p>Listas Não Ordenadas <br>
+            Tag: < ul > e < li > <br>
+            A tag < ul > (unordered list) é usada para criar uma lista não ordenada, onde os itens são marcados com marcadores (geralmente bolinhas). Cada item da lista é definido com a tag < li > (list item).
+            <br> Listas Ordenadas
+            Tag: < ol > e < l > <br>
+            A tag < ol > (ordered list) é usada para criar uma lista ordenada, onde os itens são numerados automaticamente. Assim como nas listas não ordenadas, os itens são definidos com a tag < li >.</p>
+            <h4>Lista não ordenada</h4>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <h4>Lista ordenada</h4>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+            <h3>Tabelas</h3>
+            <p>As tabelas são usadas para organizar dados em linhas e colunas e são definidas pela tag < table >.
+                 A estrutura de uma tabela inclui: <br>
+
+                <br>Tag < table >: Define o início e o fim da tabela. <br>
+                <br>Tag < tr > (Table Row): Define uma linha dentro da tabela. <br>
+                <br>Tag < th > (Table Header): Define uma célula de cabeçalho, geralmente usada para rotular colunas e exibida em negrito e centralizada. <br>
+                <br>Tag < td > (Table Data): Define uma célula de dados que contém o conteúdo da tabela.</p>
+                <h3> Tabela Prática</h3>
+            <table>
+                <tr>
+                    <th>Times</th>
+                    <th>Pontuação</th>
+                </tr>
+                <tr>
+                    <td>Corinthians</td>
+                    <td>30 Pontos</td>
+                </tr>
+                <tr>
+                    <td>Palmeiras</td>
+                    <td>25 Pontos</td>
+                </tr>
+            </table>
+            <h3>Imagem</h3>
+            <p>A tag < img > é utilizada para inserir uma imagem em seu site, tendo também a < alt > funciona como uma "descrição". </p>
+            <img src="./img/fundo.jpg" alt="Exemplo de imagem">
+            <h3>Links</h3>
+            <p>A tag < a > é conhecida como âncora assim sendo utilizada para inserir links.</p>
+            <a href="https://github.com/MuriloHenriqueDss">Este é um link</a>
+        </section>
+        <section>
+            <h2>Exemplo Prático</h2>
+            <p>Este é um parágrafo sobre o SCCP (Sport Club Corinthians Paulista) um time de muita tradição... <br> <a href="https://www.meutimao.com.br/jogadores-do-corinthians/elenco-atual-do-corinthians">Link para ver o elenco atual do SCCP (Sport Club Corinthians Paulista)</a>. <br> Lista das ultimas conquistas do time:</p>
+            <ul>
+                <li>Tetracampeonato Brasileiro (2005)</li>
+                <li>Copa Libertadores da América (2012)</li>
+                <li>Mundial de Clubes (2012)</li>
+            </ul>
+            <div id="trofeus">
+            <img src="./img/trofeus do corinthians (1).jpg" alt="Exemplo de imagem">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
